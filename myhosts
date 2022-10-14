@@ -13,6 +13,6 @@
 
 
 [webserverhost:vars]
-mywebserveronubuntu= apache2222
+mywebserveronubuntu= apache3
 mywebserveronredhat= httpd
 

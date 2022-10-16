@@ -11,3 +11,14 @@
     - name: I want to display vars volume
       debug:
          msg: "{{myvar1}}"
+
+    - name: I want to install package
+      apt:
+         name: "{{item}}"
+         state: present
+      where: ansible_os_family=="Debian" 
+
+      loops:
+        - "{{myvar1}}" 
+        - "{{myvar2}}"   
+        - "{{myvar3}}"

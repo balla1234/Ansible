@@ -6,16 +6,16 @@
      myvar2: wget
      myvar3: git
   tasks:
-     - name: I want to display vars volume
-       debug:
+    - name: i want to display vars value
+      debug:
          msg: "{{myvar1}}"
 
-     - name: I want to install package
-       apt:
+    - name: i want to install package
+      apt:
          name: "{{item}}"
          state: present
          when: ansible_os_family=="Debian" 
-       loops:
+      loops:
          - "{{myvar1}}" 
          - "{{myvar2}}"   
          - "{{myvar3}}"

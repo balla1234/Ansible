@@ -9,3 +9,8 @@
     - name: i want to display linux command output
       debug:
         msg: "{{myresult}}"  
+
+    - name: i want to install wget
+      apt:
+        name: wget   
+        state: present 

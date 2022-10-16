@@ -1,0 +1,13 @@
+---
+- hosts: 172.31.43.79
+  become: yes
+  vars:
+
+     myvar1: tree
+     myvar2: wget
+     myvar3: git
+
+  tasks:
+    - name: I want to display vars volume
+      debug:
+         msg: "{{myvar1}}"

@@ -16,8 +16,8 @@
       apt:
          name: "{{item}}"
          state: present
-      when: ansible_os_family=="Debian" 
-
+         when: ansible_os_family=="Debian" 
+     
       loops:
          - "{{myvar1}}" 
          - "{{myvar2}}"   

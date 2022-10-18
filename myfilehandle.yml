@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.24.113
+  become: yes
+  tasks: 
+   - name: i want to create files
+     files:
+       path: /home/ubuntu/myvetex.txt
+       state: touch

@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.43.79
+- hosts: 172.31.24.113
   become: yes
   tasks: 
     - name: i want to run linux command 

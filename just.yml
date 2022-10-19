@@ -1,5 +1,0 @@
----
-- name: i want to change template    
-       template: 
-         src: myindex.j2
-         dest: /var/www/html/index.html

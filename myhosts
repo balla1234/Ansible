@@ -1,7 +1,7 @@
 [webserverhost]
-172.31.22.65
-172.31.21.146
-172.31.26.239
+172.31.22.65   #ubuntu node
+172.31.21.146  #Redhate node 
+172.31.26.239  #ubuntu java11
 
 
 [DBserver]

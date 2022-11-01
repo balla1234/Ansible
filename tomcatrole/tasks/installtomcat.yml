@@ -23,7 +23,7 @@
 - name: i want to extract tomcat file 
   command:
     cmd: sudo tar xzvf apache-tomcat-*tar.gz -C /opt/tomcat --strip-components=1
-    dest: /opt/tomcat/LISENCE
+    creates: /opt/tomcat/LISENCE
 
          
 

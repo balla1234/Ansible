@@ -4,4 +4,4 @@
   systemd:
     state: started
     daemon_reload: yes
-    enabled: True
+    name: tomcat

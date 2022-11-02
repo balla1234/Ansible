@@ -1,5 +1,5 @@
 --- 
-# step 5:4 : download tomcat tar file in /tmp directory
+# step 5:4 :  Open a file called tomcat.service
 
 - name: i want to change template    
   template: 

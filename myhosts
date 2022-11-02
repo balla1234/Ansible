@@ -3,6 +3,8 @@
 172.31.21.146  #Redhate node 
 172.31.26.239  #ubuntu java11
 
+[applicationserver]
+172.31.29.178
 
 [DBserver]
 172.31.32.120

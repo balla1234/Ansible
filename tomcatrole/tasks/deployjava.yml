@@ -1,5 +1,5 @@
 ---
-- name: download file and force basic auth
+- name: i want to deploy java application
   get_url:
     url: https://mytomcatapp.s3.us-east-2.amazonaws.com/mahaLogin-5.0.war
     dest: /opt/tomcat/webapps/mahaLogin-5.0.war

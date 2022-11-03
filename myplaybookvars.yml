@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.27.192
+- hosts: 172.31.26.239
   become: yes
   vars:
      myvar1: tree
@@ -19,3 +19,4 @@
          - "{{myvar1}}" 
          - "{{myvar2}}"   
          - "{{myvar3}}"
+         
